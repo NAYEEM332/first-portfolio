@@ -73,6 +73,7 @@ nav ul {
     font-size: 22px;
     color: gray;
     margin-bottom: 30px;
+    max-width: 750px;
 }
 
 /* Main Portion */
@@ -136,4 +137,119 @@ main{
 
 .skills-container{
     display: flex;
+    gap: 24px;
+}
+
+.skills{
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px lightgray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.skills-title{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.skills-description{
+    color: gray;
+}
+
+/* resume container */
+
+
+.resume-heading{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+
+.resume-container h3{
+    margin: 0px 0;
+    
+}
+
+.resume-container h4{
+    margin: 5px 0;
+    
+}
+
+.resume-container h6{
+    margin: 5px 0;
+    color: #D9D9D9;
+}
+
+.resume-description{
+    color: #a8a8a8;
+    margin-bottom: 40px;
+}
+.resume-description1{
+    margin-bottom: 50px;
+}
+
+.resume-btn{
+    text-align: center;
+}
+
+.btn-hire1{
+    
+    padding: 8px 15px;
+    background-color: #fd6e0a;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+footer{
+    margin-top: 50px;
+    padding: 80px 150px;
+    background-color: #fceade;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+
+
+.input{
+    margin: 5px 0;
+    padding: 8px 60px;
+    border: 0;
+}
+textarea{
+    display: block;
+    padding: 10px 0px 10px 51px;
+    margin-top: 5px;
+    border:0;
+}
+.footer-title{
+    margin-bottom: 10px;
+}
+.footer-description{
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+.footer a{
+    text-decoration: none;
+}
+.btn-hire2{
+    margin-top: 10px;
+    display: block;
+    padding: 8px 15px;
+    background-color: #fd6e0a;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
 }
