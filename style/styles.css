@@ -1,3 +1,4 @@
+/* navigation Bar */
 * {
   margin: 0;
   padding: 0;
@@ -38,5 +39,29 @@ nav ul {
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: 25px;
 }
 
+/* Banner */
+
+.banner{
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-heading{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.banner-title{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    font-size: 22px;
+    color: gray;
+    margin-bottom: 30px;
+}
